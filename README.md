@@ -11,10 +11,10 @@
         }
     }
    }
-       //利用快排实现排序
-       //利用三数中值分割法找到合适的pivot，将其移至最后不进行排序，利用partition找到合适的位置
-       //交换至合适位置，对两边继续交换，知道只剩一个点
-       //注意在开始partition前，left在 i - 1，right在pivot处
+       /*利用快排实现排序
+       利用三数中值分割法找到合适的pivot，将其移至最后不进行排序，利用partition找到合适的位置
+       交换至合适位置，对两边继续交换，知道只剩一个点
+       注意在开始partition前，left在 i - 1，right在pivot处*/
        
      public class QuickSortArray {
     int[] ints;
